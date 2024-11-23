@@ -1,0 +1,19 @@
+{
+  "name": "website-crawler",
+  "version": "1.0.0",
+  "description": "A simple web crawler to extract URLs from a site",
+  "main": "src/crawler.js",
+  "scripts": {
+    "start": "node src/crawler.js",
+    "crawl": "node src/crawler.js https://example.com"
+  },
+  "dependencies": {
+    "axios": "^1.3.0",
+    "cheerio": "^1.0.0",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "xml2js": "^0.5.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
